@@ -1,0 +1,150 @@
+body {
+background-color: #441E13;
+color: white;
+}
+
+/*
+div {
+   outline: 1px solid yellow;
+}
+*/
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 195px;
+  float: left;
+}
+.slogan {
+
+  width: 380px;
+  float: left;
+  color: #A37B71;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  margin-top: 18px;
+}
+
+.logoContainer {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 920px;
+}
+
+.nav ol {
+  padding: 18px 10px;
+}
+
+.nav li {
+  border-right: 1px solid #D4B364;
+  display: block;
+  float: left;
+  padding: 6px 20px;
+  font-family: sans-serif;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
+
+.about {
+  background-color: rgb(135, 169, 132);
+  height: 214px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+  max-width: 925px;
+}
+
+.about img {
+  position: relative;
+  top: 25px;
+  left: 30px;
+}
+
+.about h {
+  padding: 200px;
+  font-size: 3rem;
+  max-width: 4px 90px;
+  font-weight: bold;
+  position: absolute;
+  top: 4px;
+  left: 410px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  color: rgb(242, 241, 221);
+  position: absolute;
+  top: 226px;
+  left: 220px;
+  right: 200px;
+  padding: 30px 390px;
+}
+
+.list {
+  background-color: rgb(150, 175, 172);
+  height: 420px;
+  margin-left: 367px;
+  margin-right: auto;
+  margin-top: 18px;
+  max-width: 197px;
+}
+
+
+.list ol {
+  padding: 18px 10px;
+}
+
+.list li {
+  border-bottom: 1px solid rgb(182, 198, 198) ;
+  display: block;
+  float: left;
+  padding: 8px 20px;
+  font-family: sans-serif;
+}
+
+.howwework {
+  background-color: rgb(219, 216, 197);
+  height: 420px;
+  margin-left: 564px;
+  margin-right: auto;
+  margin-top: -436px;
+  max-width: 720px;
+}
+
+.howwework h {
+  color: rgb(87, 109, 120);
+font-weight: bold;
+font-size: 2.5rem;
+font-family: sans-serif;
+padding-left: 30px;
+margin-left: 0px;
+padding-top: 18px;
+position: absolute;
+top: 395px;
+}
+
+.howwework p {
+
+  color: rgb(100, 97, 88);
+  font-family: sans-serif;
+  padding: 0px 30px;
+  position: relative;
+top: 80px;
+}
+
+.howwework p:first-child {
+    padding-top: 50px;
+}
